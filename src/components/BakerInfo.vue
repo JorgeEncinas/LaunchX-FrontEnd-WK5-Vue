@@ -12,7 +12,7 @@
         </div>
         <div class="section2">
             <div class="section-title">
-                <h2 id="contact-section">Ubicación</h2>
+                <h2 id="contact-section">Órdenes</h2>
             </div>
             <div class="udet-div">
                 <BakerOrders />
