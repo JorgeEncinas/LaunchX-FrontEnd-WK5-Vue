@@ -1,5 +1,7 @@
 # bakery
 
+This is a bakery website (as seein in WK1-HTML), using the Vue framework.
+
 ## Project setup
 ```
 npm install

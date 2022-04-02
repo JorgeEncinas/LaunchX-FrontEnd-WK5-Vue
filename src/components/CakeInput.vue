@@ -43,9 +43,8 @@ export default {
   methods: {
     postNewOrder (postData) {
       // var tempElmts = postData.target.elements
-      console.log(CakeFlavorInput.checkedFlavors)
       var postDataObject = {
-        id: this.$store.getId,
+        id: 1, // I don't know how to get the id.
         description: this.description.toString(),
         name: this.name.toString(),
         phone: this.phone.toString(),

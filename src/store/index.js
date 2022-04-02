@@ -114,7 +114,7 @@ export default createStore({
       return state.tasks
     },
     getId (state) {
-      return state.order_id++
+      return state.order_id
     },
     getFlavors (state) {
       return state.flavors
@@ -126,6 +126,9 @@ export default createStore({
   mutations: {
     postNewOrder (state, newListObject) {
       state.tasks.push(newListObject)
+    },
+    getId (state) {
+      return state.id++
     }
   },
   actions: {
